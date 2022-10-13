@@ -1,5 +1,5 @@
 import java.lang.Math;
-import java.security.PublicKey;
+import java.util.Scanner;
 
 public class landcalculation{
     /**
