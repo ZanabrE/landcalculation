@@ -21,9 +21,11 @@ public class landcalculation{
 
         //Calculation of Acre in Square Feet.
         totalAcreLand = Math.pow(acreLand, 2.0);
+        //totalAcreLand = Math.sqrt(acreLand);
 
         //Calcualation of Tract in Square Feet.
-        totalTractLand = Math.pow(tractLand, 2.0);
+       totalTractLand = Math.pow(tractLand, 2.0);
+       //totalTractLand = Math.sqrt(tractLand);
 
         //Calculations.
         total = totalTractLand / totalAcreLand;
